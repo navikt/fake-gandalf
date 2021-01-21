@@ -1,4 +1,5 @@
-fake-gandalf er kun en test app for å konvertere "difi token" til internt oidc token, slik at konsumenter kan teste med et konvertert "difi token". 
+# fake-gandalf
+Applikasjonen er kun en test app for å konvertere "difi token" til internt oidc token, slik at konsumenter kan teste med et konvertert "difi token". 
 Dette er kun en dummy. 
 Tjenesten validerer ikke innsendt "difi token", den henter kun ut de feltene som er spesifisert at skal hentes ut fra difitokenet, og returnerer et nytt signert token.
 Nøkkel kan hentes ut fra jwks endepunkt.
